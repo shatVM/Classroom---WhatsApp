@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^node --check \"C:\\\\Users\\\\admin\\\\Documents\\\\Extensions\\\\Classroom → WhatsApp\\\\script\\.js\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
