@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Classroom → WhatsApp
 // @namespace    https://lyceum.ztu.edu.ua/
-// @version      5.24
+// @version      5.25
 // @description  Вибір учнів у Google Classroom та підготовка повідомлення у WhatsApp
 // @match        https://classroom.google.com/*
 // @match        https://web.whatsapp.com/*
@@ -16,6 +16,8 @@
 // @grant        GM_deleteValue
 // @grant        GM_addValueChangeListener
 // @run-at       document-start
+// @updateURL    https://raw.githubusercontent.com/shatVM/Classroom---WhatsApp/main/script.js
+// @downloadURL  https://raw.githubusercontent.com/shatVM/Classroom---WhatsApp/main/script.js
 // ==/UserScript==
 
 (function () {
@@ -29,9 +31,9 @@
 
     const APP_NAME = 'Classroom → WhatsApp';
 
-    const SCRIPT_VERSION = '5.24';
+    const SCRIPT_VERSION = '5.25';
 
-    const SCRIPT_BUILD_TIMESTAMP = '7.10.26 18:07';
+    const SCRIPT_BUILD_TIMESTAMP = '8.10.26 09:16';
 
     const WHATSAPP_CHAT_NAME = 'Відвідування';
 
