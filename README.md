@@ -1,21 +1,21 @@
 # Classroom → WhatsApp
 
-Userscript for Google Classroom, WhatsApp Web, and Mriia.
+Userscript для Google Classroom, WhatsApp Web і Мрія.
 
-## Install on each device
+## Встановлення на кожному пристрої
 
-1. Install Tampermonkey in Chrome.
-2. Open the [userscript install URL](https://raw.githubusercontent.com/shatVM/Classroom---WhatsApp/main/script.js).
-3. Confirm **Install** in Tampermonkey.
+1. Встановіть Tampermonkey у Chrome.
+2. Відкрийте [посилання для встановлення скрипта](https://raw.githubusercontent.com/shatVM/Classroom---WhatsApp/main/script.js).
+3. Підтвердьте встановлення в Tampermonkey.
 
-The script is installed separately on each device. Tampermonkey checks the stable
-GitHub URL for updates; it does not require the local Node.js server.
+Скрипт потрібно встановити окремо на кожному пристрої. Tampermonkey перевіряє
+оновлення за постійною адресою GitHub; локальний Node.js сервер не потрібен.
 
-## Publish an update
+## Публікація оновлення
 
-Edit `script.js`, increment both the `@version` metadata and `SCRIPT_VERSION`,
-then commit and push the change to the `main` branch. Tampermonkey will pick up
-the new version on its next update check. Users can also trigger an update from
-the Tampermonkey dashboard.
+Змініть `script.js`, збільште значення і в метаданих `@version`, і в
+`SCRIPT_VERSION`, а потім збережіть зміни в гілку `main` GitHub. Tampermonkey
+завантажить нову версію під час наступної перевірки оновлень. Перевірку також
+можна запустити вручну з панелі Tampermonkey.
 
-This repository is public, so the userscript source is publicly visible.
+Репозиторій публічний, тому вихідний код скрипта доступний усім.
